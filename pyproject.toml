@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "hmm-from-scratch"
+version = "1.0.0"
+description = "Hidden Markov Models with Viterbi, Forward-Backward and Baum-Welch algorithms."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Edson Ricardo Pedroza Olivera", email = "edsonpedroza99@gmail.com" }
+]
+keywords = ["hmm", "hidden markov model", "viterbi", "baum-welch", "machine learning"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.21",
+]
+
+[project.urls]
+Repository = "https://github.com/epedrozao/HMM-From-Scratch"
